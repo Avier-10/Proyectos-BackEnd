@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  },
+  "name": "proyectos-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Index.js",
+    "dev":"npx nodemon Index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avier-10/Proyectos-BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avier-10/Proyectos-BackEnd/issues"
+  },
+  "homepage": "https://github.com/Avier-10/Proyectos-BackEnd#readme",
+  "description": ""
+}
