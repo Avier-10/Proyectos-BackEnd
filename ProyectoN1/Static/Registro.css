@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body {
+  background-image: url(/ProyectoN1/Img/Cielo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0%;
+}
+#BloqueEncabezado {
+  background-image: url(/ProyectoN1/Img/Degradado.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  border: 2px solid black;
+}
+#ImagenAlarma {
+  width: 70px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 2px;
+}
+#BloqueLinks {
+  position: absolute;
+  left: 130px;
+  top: 30px;
+}
+.HeaderLinks {
+  font-size: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+#BloqueRegistro {
+  background-color: rgb(201, 200, 202);
+  width: 850px;
+  border: 1px solid black;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+form {
+  text-align: center;
+  margin: 5px;
+}
+label {
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+}
+input {
+  margin: 5px;
+  border-radius: 5px;
+  height: 23px;
+}
+.BotonEnviar {
+  margin: 8px;
+}
+#BloquePie {
+  background-image: url(/ProyectoN1/Img/Degradado.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid black;
+}
+#Columnas {
+  padding: 8px;
+  margin: 20px;
+  text-align: center;
+  column-rule: 1px solid black;
+  columns: 100px 4;
+}
+.ColumnasText {
+  display: block;
+  Color: black;
+  font-size: 18px;
+  font-family: 'Roboto Mono', monospace;
+}
+.PieLinks {
+  display: inline;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 13px;
+  color: black;
+}
+#TyC {
+  font-size: 15px;
+}
+#URedireccion {
+  margin: 5px;
+}
+
+ul {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+#BotonSonido {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#Sonido {
+  width: 20px;
+}

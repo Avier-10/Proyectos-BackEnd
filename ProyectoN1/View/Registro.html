@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Registro.css" />
+    <link
+      rel="icon"
+      href="https://img.icons8.com/fluency/2x/digital-clock.png"
+    />
+    <title>Crear Cuenta</title>
+  </head>
+  <body>
+    <header id="BloqueEncabezado">
+      <img
+        src="https://img.icons8.com/fluency/2x/digital-clock.png"
+        alt="Alarma"
+        id="ImagenAlarma"
+      />
+      <nav id="BloqueLinks">
+        <a href="#" class="HeaderLinks">Herramientas</a>
+        <a href="#" class="HeaderLinks">Precios</a>
+        <a href="#" class="HeaderLinks">Contacto</a>
+        <a href="#" class="HeaderLinks">Soporte</a>
+        <a href="/InicioSesion" class="HeaderLinks">Inicio De Sesion</a>
+      </nav>
+    </header>
+    <div id="BloqueRegistro">
+      <form action="">
+        <h1 style="font-family: 'Roboto Mono', monospace;">Creacion De Cuenta</h1>
+
+        <label for="Nombre">Nombre</label><br />
+        <input
+          type="text"
+          name="Nombre"
+          id="Nombre"
+          placeholder="Ej:Javier"
+        /><br />
+
+        <label for="Apellido">Apellido</label><br />
+        <input
+          type="text"
+          name="Apellido"
+          id="Apellido"
+          placeholder="Ej:Cordero"
+        /><br />
+
+        <label for="mail">E-mail</label><br />
+        <input
+          type="email"
+          name="mail"
+          id="mail"
+          placeholder="Ej:mail@hotmail.com"
+        /><br />
+
+        <label for="UserName">UserName</label><br />
+        <input
+          type="text"
+          name="UserName"
+          id="UserName"
+          placeholder="Ej:Agent"
+        /><br />
+
+        <label for="Contraseña">Contraseña</label><br />
+        <input
+          type="password"
+          name="Contraseña"
+          id="Contraseña"
+          placeholder="Ej:123456789"
+        /><br />
+
+        <label for="CContraseña">Confirmar Contraseña</label><br />
+        <input
+          type="password"
+          name="CContraseña"
+          id="CContraseña"
+          placeholder="Ej:123456789"
+        /><br />
+
+        <input type="submit" value="Enviar" class="BotonEnviar" /><br />
+
+        <footer>
+          <ul>
+            <li id="URedireccion">
+              <a href="/InicioSesion" id="Redireccion">Ya te Registraste? Inicia Sesion</a>
+            </li>
+            <li>
+              <input type="checkbox" id="Terminos" />
+              <label for="Terminos" id="TyC"
+                >Acepto los <a href="#">Términos de Servicio</a> y la
+                <a href="#">Política de Privacidad</a>.
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" id="Actualizaciones" />
+              <label for="Actualizaciones" class="TyC"
+                >Quiero recibir información sobre actualizaciones de
+                productos</label
+              >
+            </li>
+          </ul>
+        </footer>
+      </form>
+    </div>
+    <footer>
+      <div id="BloquePie">
+        <nav id="Columnas">
+          <a href="/" class="ColumnasText">Inicio</a><br />
+          <a href="#" class="ColumnasText">Contacto</a><br />
+          <a href="#" class="ColumnasText">Como Funciona</a><br />
+          <a href="#" class="ColumnasText">Confianza Y Seguridad</a><br />
+          <a href="#" class="ColumnasText">Clientes</a><br />
+          <a href="#" class="ColumnasText">Socios</a><br />
+          <a href="#" class="ColumnasText">Preguntas Frecuentes</a><br />
+          <a href="#" class="ColumnasText">Telefono</a><br />
+        </nav>
+        <nav>
+          <ul>
+            <li class="PieLinks"><a href="#" style="color: black;">Asistencia</a></li>
+            <li class="PieLinks"><a href="#" style="color: black;">Aviso de Privacidad</a></li>
+            <li class="PieLinks"><a href="#" style="color: black;">Termino de Servicio</a></li>
+            <li class="PieLinks"><a href="#" style="color: black;">Preferencias de Cookies</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <!--
+    <button id="BotonSonido" type="button">
+      <img
+        src="https://w7.pngwing.com/pngs/469/899/png-transparent-computer-icons-font-awesome-microphone-sound-sound-wave-electronics-microphone-text-thumbnail.png"
+        alt="Sonido"
+        id="Sonido"
+      />
+    </button>-->
+  </body>
+</html>
