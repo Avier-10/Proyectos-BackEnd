@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 body {
-  background-image: url(/ProyectoN1/Img/Cielo.jpg);
+  background-image: url(./Img/Cielo.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@ body {
   margin: 0%;
 }
 #BloqueEncabezado {
-  background-image: url(/ProyectoN1/Img/Degradado.jpg);
+  background-image: url(./Img/Degradado.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,7 +36,7 @@ body {
   font-family: "Playfair Display", serif;
 }
 #BloqueInicio {
-  background-color: rgb(201, 200, 202);
+  background-color: rgb(201, 200, 202,0.5);
   width: 850px;
   height: 400px;
   border: 1px solid black;
@@ -64,7 +64,7 @@ form {
 
 
 #BloquePie {
-  background-image: url(/ProyectoN1/Img/Degradado.jpg);
+  background-image: url(./Img/Degradado.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

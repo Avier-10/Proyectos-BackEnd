@@ -11,4 +11,8 @@ router.get("/InicioSesion", function (req, res) {
   return view("InicioSesion.html", res);
 });
 
+router.get("/Herramientas",function(req,res){
+return view("Calendar.html", res);
+});
+
 module.exports = router;
